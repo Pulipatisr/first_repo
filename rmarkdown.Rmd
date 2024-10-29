@@ -1,8 +1,8 @@
 ---
-title: "rversion"
+title: "first version control project"
 author: "sree"
 date: "2024-10-29"
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -24,7 +24,7 @@ summary(cars)
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+plot(pressure, col = "red")
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
